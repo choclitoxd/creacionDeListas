@@ -42,7 +42,19 @@ public class Pila<E extends Comparable>  {
         return size == 0;
     }
 
+    public void representacionBinaria(E valor) {
+        int numero = Integer.parseInt(valor.toString());
 
+        if (numero == 0) {
+            push((E) Integer.valueOf(0));
+            return;
+        }
+
+        while (numero > 0) {
+            push((E) Integer.valueOf(numero % 2));
+            numero = numero / 2;
+        }
+    }
 
 
 

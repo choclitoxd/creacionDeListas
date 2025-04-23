@@ -1,13 +1,16 @@
 package cola;
 
 import listaSimple.Nodo;
+import model.Persona;
 import pila.Pila;
 
 import static numeroPrimos.NumerosPrimo.esPrimo;
 
 public class Cola <E extends Comparable>{
+
     private Nodo<E> inicio;
     private int size;
+
     public Cola() {
         inicio = null;
         size = 0;
@@ -22,11 +25,22 @@ public class Cola <E extends Comparable>{
 
     public void quitar() {
         if (inicio != null){
-            E valor = inicio.getValor();
             inicio = inicio.getProximo();
             size--;
         }else {
             System.out.println("El cola esta vacio");
+        }
+    }
+
+    public E poll() {
+        if (inicio != null){
+            E valor = inicio.getValor();
+            inicio = inicio.getProximo();
+            size--;
+            return valor;
+        }else {
+            System.out.println("El cola esta vacio");
+            return null;
         }
     }
 
@@ -52,31 +66,26 @@ public class Cola <E extends Comparable>{
             recorrido = recorrido.getProximo(); // Update recorrido!
             cola += "=>" + recorrido.getValor();
         }
-
         return cola;
     }
 
-    public void eliminarPersonas(){
-        Nodo<E> actual = inicio;
-
-        while (actual != null) {
-            Nodo<E> prev = actual;
-            Nodo<E> siguiente = actual.getProximo();
-
-            while (siguiente != null) {
-                if () {
-                    prev.setProximo(siguiente.getProximo()); // Elimina el nodo duplicado
-                } else {
-                    prev = siguiente; // Avanza el nodo previo solo si no se eliminó
-                }
-                siguiente = siguiente.getProximo();
-            }
-
-            actual = actual.getProximo();
+    public boolean estaVacia() {
+        if (inicio == null) {
+            return true;
         }
+        return false;
     }
 
-
+    public Cola<E> eliminarPersonas(){
+        Cola<E> cola = new Cola();
+        while (!estaVacia()) {
+            Persona valor = (Persona) poll();
+            if (!(valor.getSexo().equals("Masculino") && valor.getEdad() >= 30 && valor.getEdad() <= 50)) {
+                cola.insertar((E) valor);
+            }
+        }
+        return cola;
+    }
 
 
 }

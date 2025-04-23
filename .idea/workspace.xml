@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b27634c-fcd2-44e2-8809-9d98f72ad4ca" name="Changes" comment="Nueva creacion">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cola/Cola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cola/Cola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cola/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cola/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pila/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pila/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pila/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pila/Pila.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.Prueba2.executor": "Run",
-    "Application.prueba1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/victx/Documents/Repaso/creacionListas",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prueba2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prueba1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/victx/Documents/Repaso/creacionListas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cola" />
@@ -136,6 +141,8 @@
       <workItem from="1745283093926" duration="14985000" />
       <workItem from="1745344025525" duration="6824000" />
       <workItem from="1745361208789" duration="915000" />
+      <workItem from="1745390202143" duration="6278000" />
+      <workItem from="1745445318404" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Nueva creacion">
       <option name="closed" value="true" />

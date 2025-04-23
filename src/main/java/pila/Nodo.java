@@ -1,6 +1,6 @@
 package pila;
 
-public class Nodo<E> {
+public class Nodo<E extends Number> {
     private E valor;
     private Nodo<E> proximo;
     public Nodo(E valor) {

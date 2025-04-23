@@ -1,6 +1,8 @@
 package cola;
 
-public class Nodo<E> {
+import model.Persona;
+
+public class Nodo<E extends Persona> {
     private E valor;
     private Nodo<E> proximo;
     public Nodo(E valor) {
