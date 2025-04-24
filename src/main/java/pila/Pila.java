@@ -3,6 +3,8 @@ package pila;
 import listaSimple.ListaSimple;
 import listaSimple.Nodo;
 
+import java.util.List;
+
 public class Pila<E extends Comparable>  {
 
     private Nodo<E> inicio;
@@ -56,6 +58,46 @@ public class Pila<E extends Comparable>  {
         }
     }
 
+    public boolean balanceado(String texto){
+
+       ingresarListaAhPila(texto.split(""));
+
+        int corchete = 0;
+        int llaves = 0;
+        int parentisis = 0;
+
+        while (!estaVacia()) {
+            Character valor = Character.valueOf(pop().toString().charAt(0)) ;
+            switch (valor){
+                case'{':
+                    corchete++;
+                    break;
+                    case '}':
+                        corchete--;
+                        break;
+                        case '[':
+                            llaves++;
+                            break;
+                            case ']':
+                                llaves--;
+                                break;
+                                case '(':
+                                    parentisis++;
+                                    break;
+                case ')':
+                    parentisis--;
+                    break;
+            }
+        }
+        return (corchete == 0 && llaves == 0 && parentisis == 0);
+    }
+
+    public void ingresarListaAhPila(String[] lista) {
+        for (int i = 0; i < lista.length; i++) {
+            push((E) lista[i]);
+        }
+        System.out.println("Listo");
+    }
 
 
 }

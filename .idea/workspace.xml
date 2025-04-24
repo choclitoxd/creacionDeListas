@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1b27634c-fcd2-44e2-8809-9d98f72ad4ca" name="Changes" comment="Nueva creacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cola/Cola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cola/Cola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cola/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cola/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pila/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pila/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listaSimple/ListaSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listaSimple/ListaSimple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pila/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pila/Pila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cola/Cola.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cola/Cola.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cola/Nodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cola/Nodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listaSimple/ListaSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listaSimple/ListaSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pila/Nodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pila/Nodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pila/Pila.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pila/Pila.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +46,13 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Prueba2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prueba6.executor&quot;: &quot;Debug&quot;,
     &quot;Application.prueba1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/victx/Documents/Repaso/creacionListas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/victx/Downloads/Preparcial2/Preparcial2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,11 +63,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listaCircular" />
       <recent name="cola" />
       <recent name="pila" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Prueba2">
+  <component name="RunManager" selected="Application.Prueba6">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="creacionListas" />
@@ -90,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prueba6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="preparcial.Prueba6" />
+      <module name="creacionListas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="preparcial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="prueba1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="preparcial.prueba1" />
       <module name="creacionListas" />
@@ -105,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prueba6" />
         <item itemvalue="Application.Prueba2" />
         <item itemvalue="Application.prueba1" />
         <item itemvalue="Application.Main" />
@@ -143,6 +162,12 @@
       <workItem from="1745361208789" duration="915000" />
       <workItem from="1745390202143" duration="6278000" />
       <workItem from="1745445318404" duration="415000" />
+      <workItem from="1745456646815" duration="3621000" />
+      <workItem from="1745463545825" duration="2759000" />
+      <workItem from="1745473414244" duration="4173000" />
+      <workItem from="1745512239701" duration="8198000" />
+      <workItem from="1745520558902" duration="191000" />
+      <workItem from="1745529802444" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="Nueva creacion">
       <option name="closed" value="true" />
@@ -182,5 +207,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nueva creacion" />
     <option name="LAST_COMMIT_MESSAGE" value="Nueva creacion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/preparcial/Prueba6.java</url>
+          <line>6</line>
+          <properties class="preparcial.Prueba6" method="metodoRecursivo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="listaSimple.inicio" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

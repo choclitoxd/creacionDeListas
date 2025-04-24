@@ -216,4 +216,17 @@ public class ListaSimple<E extends Comparable> {
     public boolean compararValores(E dato1, E dato2){
         return dato1.compareTo(dato2) > 0;
     }
+
+    public boolean estaVacia(){
+        return size==0;
+    }
+
+    public E popListaSimple(){
+        if (inicio == null) return null;
+        E valor = inicio.getValor();
+        inicio = inicio.getProximo();
+        return valor;
+    }
+
+
 }
